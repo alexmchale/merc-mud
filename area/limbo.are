@@ -1,0 +1,148 @@
+#AREA	{None } Diku    Limbo~
+
+
+
+#MOBILES
+#1
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+~
+1 0 1000 S
+26 1 -1 5d10+550 4d6+3
+10000 155000
+8 8 2
+#0
+
+
+
+#OBJECTS
+#2
+coin gold~
+a gold coin~
+One miserable gold coin.~
+~
+20 0 1
+1 0 0 0
+1 0 0
+#3
+coins gold~
+%d gold coins~
+A pile of gold coins.~
+~
+20 0 1
+0 0 0 0
+1 0 0
+#10
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+~
+23 0 1
+0 0 0 1
+100 0 0
+#11
+corpse~
+corpse of %s~
+The corpse of %s is lying here.~
+~
+24 0 0
+0 0 0 1
+100 0 0
+#12
+head~
+head of %s~
+The severed head of %s is lying here.~
+~
+19 0 1
+10 0 0 0
+5 0 0
+#13
+heart~
+heart of %s~
+The torn-out heart of %s is lying here.~
+~
+19 0 1
+16 0 0 0
+2 0 0
+#14
+arm~
+arm of %s~
+The sliced-off arm of %s is lying here.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#15
+leg~
+leg of %s~
+The sliced-off leg of %s is lying here.~
+~
+19 0 1
+20 0 0 0
+5 0 0
+#16
+turd~
+steaming turd~
+The steaming turds of %s assail your nostrils.~
+~
+13 0 0
+5 0 0 1
+1 0 0
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.
+~
+~
+19 0 1
+5 0 0 0
+1 10 10
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+~
+1 0 1
+0 0 -1 0
+1 0 0
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+~
+25 64 0
+100000 100000 0 0
+5000 10 100000
+#0
+
+
+
+#ROOMS
+#1
+The Void~
+  You are floating in nothing.
+~
+0 8 1
+S
+#2
+Limbo~
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 8 1
+S
+#0
+
+
+
+#RESETS
+M 0 1 1 2		Puff
+S
+
+
+
+#$

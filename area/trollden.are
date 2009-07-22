@@ -1,0 +1,350 @@
+#AREA	{10 15} Merc    Troll Den~
+
+
+
+#MOBILES
+#2800
+guardian beast~
+the guardian beast~
+A guardian beast stares at you and snarls in rage.
+~
+Jet black fur covers this beast.  You stare at his two huge red eyes.  You can
+count at least 50 teeth on this monster.  You can't tell whether it is blood or
+saliva dripping from the beast's jaw.  The guardian beast snarls again.
+~
+2|4|32|64 8|32768|65536 -200 S
+7 12 2 7d7+70 2d6+1
+0 1550
+8 8 1
+#2801
+young troll~
+the young troll~
+A young troll is sitting down, chewing on a bone.
+~
+He is a tall, wiry, furry humanoid.
+Your eyes lock with his.  He smiles, puts down his bone, and reaches for one
+of yours!!
+~
+4|32|64 32768 -500 S
+6 13 3 6d6+60 2d5+1
+500 1000
+6 8 1
+#2802
+medium troll~
+the medium troll~
+A troll is grooming his pet, a guardian beast.
+~
+He is a tall, lean, furry humanoid.
+He is busy licking the ticks off of his beast.
+His eyes dart toward you, as he realizes you are one third his size.
+~
+2|4|32|64 32768 -500 S
+8 11 1 8d8+80 2d6+3
+1500 3000
+8 8 1
+#2803
+baby troll~
+a baby troll~
+A baby troll is playing Doctor with a cadaver.
+~
+He is a large, chubby, furry humanoid.
+He is trying to stuff an arm in a hole in the wall.
+He notices you and gargles "WANNA JOIN?".
+~
+2|4|32 32768 -100 S
+5 14 4 5d5+50 2d4+1
+250 700
+6 8 1
+#2804
+giant troll~
+the giant troll~
+A giant troll is lying on a pile of carnage, pleasing his mistress.
+~
+He is a gigantic, muscular, furry humanoid.
+He gasps as he notices your intrusion.
+You gasp as you realize you have intruded upon his acts of passion!
+~
+2|4|32|64 32768 -1000 S
+13 6 -4 13d13+130 3d6+4
+3000 13000
+5 8 1
+#2805
+large troll female~
+the large female troll~
+A large female troll is lying on the pile of carnage, blissfully writhing.
+~
+She is a huge, grotesque, furry humanoid.
+She moans in passion but gasps as she notices you.
+Her smiles turn into snarls as she screams at you!
+~
+2|4|32|64 32768 -800 S
+11 8 -3 11d11+110 3d5+3
+2500 8000
+5 8 2
+#2806
+fat worm~
+a fat worm~
+A fat worm scurries around, looking for food.
+~
+It is thick and long.  You can't find a head on this thing.
+It moves quickly, from corpse to corpse.
+~
+4|32|128 32768|65536 0 S
+3 13 3 3d3+30 2d4+0
+0 350
+8 8 0
+#2807
+roving beast~
+the roving beast~
+A roving beast is searching for prey.
+~
+Jet black fur covers this beast.
+You stare at his two huge red eyes.  You can count at least 50 teeth on this
+beast.  You can't tell whether it is blood or saliva dripping from the beast's
+jaw.  The roving beast snarls at you.
+~
+2|4|32|64 8|32768 -200 S
+7 12 2 7d7+70 2d6+1
+0 2250
+8 8 1
+#2808
+medium troll~
+the medium troll~
+A troll is wandering around, attending to his duties.
+~
+He is a tall, lean, furry humanoid.
+He notices you, and is satisfied to find what he is looking for.
+He advances toward you.
+~
+4|32|64 32768 -500 S
+8 11 1 8d8+80 2d6+3
+1500 2750
+8 8 1
+#0
+
+
+
+#OBJECTS
+#2800
+corpse cadaver~
+the cadaver-toy~
+A half eaten corpse is laying here~
+~
+15 0 1
+30 0 0 0
+50 0 0
+#2801
+pile rotting heap bed~
+the heap of carnage~
+There is a bed made of carnage here.~
+~
+15 0 0
+30 0 0 0
+999 0 0
+#2802
+trollskin troll skin~
+the troll skin~
+The filthy hide of a beast is laying here.~
+~
+9 0 1|1024
+5 0 0 0
+50 50 50
+E
+troll skin~
+This is the skin from a huge (and dead) beast.  It looks bad, smells bad,
+and feels bad.
+~
+A
+1 1
+#2803
+ring opal~
+an opal ring~
+A ring of black opal lies here gathering dust.~
+~
+9 64 1|2
+3 0 0 0
+1 1000 100
+E
+ring opal~
+It is a full circle of opal, smooth and simple.
+~
+A
+19 2
+#2804
+leather belt~
+a leather belt~
+An old leather belt is left on the floor.~
+~
+9 64 1|2048
+6 0 0 0
+5 100 20
+E
+leather belt~
+This old, smelly belt looks like it is barely better than rotting cloth.
+~
+#2805
+bone cracked~
+a cracked bone~
+A cracked piece of bone lies here.~
+~
+5 0 1|8192
+0 3 3 7
+3 3 50
+E
+bone~
+This piece of bone looks sturdy enough to be used as a weapon, but you
+wouldn't want to entrust your life to it.
+~
+A
+19 -1
+A
+18 -1
+#0
+
+
+
+#ROOMS
+#2801
+Wastedump~
+This room is filled with bone shards and fragments.  Something (or things)
+very big lives here.  A small plaque is on the wall.
+~
+28 1|8 0
+D2
+You find the stench is stronger inside.
+~
+~
+0 0 2803
+D0
+You reach civilization again.
+~
+~
+0 0 6124
+E
+plaque~
+This zone (trollden) is created by MERC for any MERC Mud.
+copyright 1992
+~
+S
+#2802
+Troll's Larder~
+This room has blood and grime all over the walls.  You see maggots and other
+insects crawling up them.  The resident is definitely uncivilized.  Half-eaten
+and rotting body parts scatter the floor, each having its own colony of flies,
+worms, and maggots.
+~
+28 1|8 0
+D1
+You welcome the fresh breeze coming from the east, but wrinkle your nose when
+the stench bears down on you once more.
+~
+~
+0 0 2803
+E
+Half-eaten body rotting corpse~
+YUCK!  You find worms crawling in and out this poor unfortunate former human.
+~
+S
+#2803
+Troll's Living Room~
+This small cave opens to the north, south, east, and west.  You are
+overcome by the stench and consider turning around.
+~
+28 1|8 0
+D0
+There is a trail of bone shards and fragments leading north.
+~
+~
+0 0 2801
+D1
+Good God!  You spy corpses all over the floor in there.  It looks like a
+virtual graveyard in there.
+~
+~
+0 0 2804
+D2
+Whoa!  You reel back from the stench.  You believe you have found the source
+of this bad smell.
+~
+~
+0 0 2805
+D3
+You puke as you watch worms crawl between this room and the room west of here
+as they bore new holes into a corpse laying on the far wall of the west room.
+~
+~
+0 0 2802
+S
+#2804
+The Playpen~
+The walls are covered with blood (and body parts!?!?).  Plastered on the far
+wall you see what looks like a human arm.  A half-eaten body lies here with
+its chest ripped out.  The predator seems disinterested in it.
+~
+29 1|8 0
+D3
+You welcome the fresh breeze coming from the west, but wrinkle your nose when
+the stench bears down on you once more.
+~
+~
+0 0 2803
+E
+arm rotting~
+This reminds you of what a baby would do to its formula during dinnertime,
+plastering it on the wall.
+~
+S
+#2805
+Troll's Bedroom~
+Obviously something REALLY big lives here.  The stench is quite unbearable.
+There are piles and piles of rotten and half-eaten body parts of animals,
+orcs, (and humans?) strewn across the floor.  There is a larger, more
+prominent pile of rotten parts over in a corner.  It seems to have been
+flattened by something.
+~
+28 1|4|8 5
+D0
+You welcome the fresh breeze coming from the north, but wrinkle your nose when
+the stench bears down on you once more.
+~
+~
+0 0 2803
+S
+#0
+
+
+
+#RESETS
+M 0 2800  2 2801         guardian beast in wastedump
+O 0 2805 10 2801         bone in wastedump
+*
+M 0 2801  2 2802         young troll in larder
+M 0 2801  2 2802         young troll in larder
+M 0 2802  1 2803         medium troll in living room
+O 0 2800 10 2804         corpse in playpen
+P 0 2804 40 2800         put belt in corpse
+*
+M 0 2800  2 2803         guardian beast in living room
+M 0 2803  4 2804         baby troll in playpen
+M 0 2803  4 2804         baby troll in playpen
+M 0 2803  4 2804         baby troll in playpen
+M 0 2803  4 2804         baby troll in playpen
+M 0 2804  1 2805         giant troll in bedroom
+E 1 2802 40 12           equip the skin on the giant troll
+*
+M 0 2805  1 2805         female troll in bedroom
+O 0 2801 10 2805         pile/bed in bedroom
+P 0 2803 40 2801         put opal ring in pile/bed
+*
+M 0 2806 20 2803         worm in living room
+M 0 2806 20 2803         worm in living room
+M 0 2806 20 2802         worm in larder
+M 0 2806 20 2802         worm in larder
+M 0 2806 20 2804         worm in playpen
+M 0 2807  1 2802         roving beast in larder
+M 0 2808  1 2803         wandering troll in living room
+S
+
+
+
+#$
